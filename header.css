@@ -1,0 +1,22 @@
+#header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#header li {
+  float: left;
+}
+#header li a.tab{
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(58, 137, 137);
+}
