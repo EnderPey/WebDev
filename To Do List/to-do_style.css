@@ -69,7 +69,7 @@ button {
     height:28px;
     width:28px;
     border-radius: 50px;
-    background-image: url(img/circle.png);
+    background-image: url(./img/circle.png);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -82,7 +82,7 @@ button {
 
 }
 #id_container ul li.checked::before{
-    background-image: url(img/checked.png);
+    background-image: url(./img/checked.png);
 }
 
 #id_container ul li span{
