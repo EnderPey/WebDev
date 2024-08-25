@@ -1,9 +1,9 @@
-require('dotenv').config();
+
 
 
 function getWeather() {
     
-    const apiKey = process.env.API_KEY;
+    const apiKey = "7937db80f89bbd6e9298ff1a98fbcb70";
     const city = document.getElementById('city').value;
 
     if (!city) {
