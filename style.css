@@ -1,3 +1,27 @@
 body {
     margin:0;
+    background-color: black;
+    
 }
+
+#center {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hello {
+    height: 50vw;
+    width: 80vw;
+    stroke-dasharray: 3363;
+    animation: 3s fillSvg linear;
+  }
+  
+  @keyframes fillSvg{
+    0%{
+        stroke-dashoffset: 3363;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+  }
